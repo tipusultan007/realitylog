@@ -1,0 +1,23 @@
+{
+    "$schema": "https://www.schemastore.org/package.json",
+    "name": "realitylog",
+    "description": "Frontend build assets for the RealityLog web application.",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "concurrently": "^10.0.3",
+        "laravel-vite-plugin": "^3.1",
+        "vite": "^8.0.0"
+    },
+    "optionalDependencies": {
+        "@laravel/multiplex": "^0.4.1"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.8",
+        "bootstrap-icons": "^1.13.1"
+    }
+}
